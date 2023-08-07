@@ -10,6 +10,7 @@
 
 <link rel="stylesheet" type="text/css" href="quiz_game_page.css">
 <script src="quiz_game_page.js"></script>
+<script src="index.html"></script>
 
 </head>
 
@@ -21,7 +22,7 @@
 
 <div class="container">
     <center>
-        <h2 id="title">|| The Math Quiz Game ||</h2>
+        <h2 style="color: white;">|| The Math Quiz Game ||</h2>
 
         <h3 id="player_question"></h3>
         <h3 id="player_answer"></h3>
@@ -29,13 +30,13 @@
         <div id="output"></div>
 
         <h3>Number 1</h3>
-        <input type="number" id="input_number1" class="form-control" placeholder="Number 1">
+        <input type="number" id="number1" class="form-control" placeholder="Number 1">
         <br>
         <h3>Number 2</h3>
-        <input type="number" id="input_number2" class="form-control" placeholder="Number 2">
+        <input type="number" id="number2" class="form-control" placeholder="Number 2">
         <br> 
 
-        <button id="button_send" class="btn btn-danger" onclick="send()">Send</button>
+        <button id="button_send" class="btn btn-danger" onclick=send()>Send</button>
     </center>
 </div>
 </body>
